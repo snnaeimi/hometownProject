@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+#firstPart{
+    
+    background: url(images/Torshov.jpg);
+    width: 720px;
+    height: 343px;
+}
+
+#header{
+    background-color: #1D3557;
+    margin: 0 auto;
+    width: 225px;
+    height: 42px;
+    color: white;
+    text-align: center;
+    margin-top: 119px;
+    border-radius: 10px;
+}
+
+#headerText{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#description{
+    text-align: center;
+    margin: 0 auto;
+    width: 412px;
+    height: 52px;
+    background-color: #457B9D;
+    color: white;
+    border-radius: 10px;
+}
+
+#descriptionText{
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    margin-top: 11px;
+}
+
+#secondPart{
+    width: 720px;
+    height: 320px;
+    background-color: #F1FAEE;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#activitiesContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities{
+    width: 198px;
+    height: 226px;
+    justify-content: space-between;
+}
+
+.activityImg{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.activityTitle{
+    width: 183px;
+    height: 32px;
+    margin-top: 22px;
+    margin-bottom: 17px;
+    font-size: 16px;
+}
+
+.activityDescription{
+    height: 55px;
+    width: 198px;
+    font-size: 16px;
+}
+
+.thirdPart{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 394px;
+    width: 720px;
+
+}
+
+.cardPart{
+    display: inherit;
+    text-align: center;
+    align-items: center;
+    height: 294px;
+    width: 400px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+}
+
+.perImg{
+    width: 180px;
+    height: 250px;
+    padding-left: 13px;
+    border-radius: 10px;
+}
+
