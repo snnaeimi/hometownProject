@@ -6,6 +6,10 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
 
+ /* ##### 
+    much better to use class or dot instead using id in css
+    but i impress the comment you have the indentation is good
+ ##### */
 #firstPart{
     
     background: url(images/Torshov.jpg);
